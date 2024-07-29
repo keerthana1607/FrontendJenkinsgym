@@ -42,5 +42,11 @@
   },
   "devDependencies": {
     "tailwindcss": "^3.4.4"
+  },
+  "jest": {
+    "testMatch": [
+      "**/src/**/*.{test,spec}.{js,jsx,ts,tsx}"
+    ]
   }
+  
 }
